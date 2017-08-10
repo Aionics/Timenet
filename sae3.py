@@ -17,13 +17,7 @@ import progressbar
 # PARAMS:
 CUDA = True
 EPOCHS = 3000
-DEPTH = 3
-HIDDEN_SIZE = 60
-FEATURES = 1
-BATCH_LENGTH = 0
 BATCH_STEP_SIZE = 64
-WINDOW_SIZE = 136
-DROPOUT = 0.4
 
 class model(nn.Module):
     def __init__(self):
